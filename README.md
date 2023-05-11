@@ -1,4 +1,4 @@
-# asl-constants - SOME CHANGE
+# asl-constants - SOME other CHANGE
 
 Provides a home for any commonly used values shared across the ASL project.
 
