@@ -1,8 +1,9 @@
 name: 'Increment Version - npm'
 on:
   pull_request:
-    types: [ labeled, unlabeled, opened, reopened, synchronize ]
+    types: [ closed ]
+    branches: [ main ]
 
 jobs:
   version:
-    uses: UKHomeOffice/sas-github-workflows/.github/workflows/semver-check-increment-npm.yml@6c978f8ec0c92de1468a4a567e7fae1c6cf002c0
+    uses: UKHomeOffice/sas-github-workflows/.github/workflows/semver-check-increment-npm.yml@0f944843ea7be9bec1b7166a1ae761411e71a8a3
