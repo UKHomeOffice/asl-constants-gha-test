@@ -1,9 +1,0 @@
-name: 'Increment Version - npm'
-on:
-  pull_request:
-    types: [ closed ]
-    branches: [ main ]
-
-jobs:
-  version:
-    uses: UKHomeOffice/sas-github-workflows/.github/workflows/increment-npm.yml@5fa3a35a7f852ef9bace1a92794ed7b26b4dea73
