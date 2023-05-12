@@ -6,4 +6,4 @@ on:
 
 jobs:
   version:
-    uses: UKHomeOffice/sas-github-workflows/.github/workflows/semver-check-increment-npm.yml@6f54f786346fa03ab354d404439a0cf52709d1b5
+    uses: UKHomeOffice/sas-github-workflows/.github/workflows/semver-check-increment-npm.yml@30751b27788bb91b46dec7597356da9915baa980
