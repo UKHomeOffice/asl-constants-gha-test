@@ -31,6 +31,8 @@ result:
 
 ## Publishing
 
+fdfsfsdfsf
+
 This is automatically published to the GitHub packages npm repository using GitHub Actions.
 
 When opening a pull request add a label `major`, `minor` or `patch` (or `skip-release`) and the version field in package.json will be updated by the pipeline using `npm version`.
