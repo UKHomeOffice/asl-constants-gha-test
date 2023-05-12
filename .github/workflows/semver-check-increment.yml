@@ -6,4 +6,4 @@ on:
 
 jobs:
   version:
-    uses: UKHomeOffice/sas-github-workflows/.github/workflows/increment-npm.yml@466f365d2d3f235bd6d39f29033df86c8b716771
+    uses: UKHomeOffice/sas-github-workflows/.github/workflows/increment-npm.yml@5fa3a35a7f852ef9bace1a92794ed7b26b4dea73
