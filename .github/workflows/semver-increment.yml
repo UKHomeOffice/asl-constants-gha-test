@@ -1,8 +1,0 @@
-name: 'Increment Version - npm'
-on:
-  pull_request:
-    types: [ closed ]
-
-jobs:
-  version:
-    uses: UKHomeOffice/sas-github-workflows/.github/workflows/semver-increment-npm.yml@b59260b31dca350f7ddaa991fa5190a02c6223e4
