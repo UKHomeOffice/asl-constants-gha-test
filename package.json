@@ -1,6 +1,6 @@
 {
   "name": "@ukhomeoffice/asl-constants-gha-test",
-  "version": "2.18.0",
+  "version": "2.19.0",
   "description": "Shared constants for ASL modules",
   "main": "index.js",
   "scripts": {
