@@ -5,4 +5,4 @@ on:
 
 jobs:
   check:
-    uses: UKHomeOffice/sas-github-workflows/.github/workflows/semver-check.yml@b59260b31dca350f7ddaa991fa5190a02c6223e4
+    uses: UKHomeOffice/sas-github-workflows/.github/workflows/semver-check.yml@a0f97aa67dc4ae9b060ecb383591f863112258b5

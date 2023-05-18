@@ -1,0 +1,9 @@
+name: 'SemVer Tag and npm Publish'
+on:
+  pull_request:
+    types: [ closed ]
+
+jobs:
+  build:
+    uses: UKHomeOffice/sas-github-workflows/.github/workflows/semver-tag-npm.yml@a0f97aa67dc4ae9b060ecb383591f863112258b5
+    secrets: inherit

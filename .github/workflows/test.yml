@@ -5,5 +5,5 @@ on:
 
 jobs:
   test:
-    uses: UKHomeOffice/sas-github-workflows/.github/workflows/test-npm.yml@v1
+    uses: UKHomeOffice/sas-github-workflows/.github/workflows/test-npm.yml@a0f97aa67dc4ae9b060ecb383591f863112258b5
     secrets: inherit
