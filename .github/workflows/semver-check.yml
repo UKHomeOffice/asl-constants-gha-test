@@ -1,0 +1,8 @@
+name: 'SemVer Check'
+on:
+  pull_request:
+    types: [ labeled, unlabeled, opened, reopened, synchronize ]
+
+jobs:
+  check:
+    uses: UKHomeOffice/sas-github-workflows/.github/workflows/semver-check.yml@b59260b31dca350f7ddaa991fa5190a02c6223e4
