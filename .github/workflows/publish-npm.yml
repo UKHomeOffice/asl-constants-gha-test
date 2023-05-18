@@ -7,4 +7,6 @@ on:
 jobs:
   publish:
     uses: UKHomeOffice/sas-github-workflows/.github/workflows/publish-npm.yml@c69ef386ac1bea31a30449d1b4a807aff1902ac4
+    with:
+      mainLineBranchName: master
     secrets: inherit
