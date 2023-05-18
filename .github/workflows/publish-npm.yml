@@ -2,8 +2,9 @@ name: 'Publish - npm'
 on:
   pull_request:
     types: [ closed ]
+    branches: [ main ]
 
 jobs:
   publish:
-    uses: UKHomeOffice/sas-github-workflows/.github/workflows/publish-npm.yml@v1
+    uses: UKHomeOffice/sas-github-workflows/.github/workflows/publish-npm.yml@a4d313effcee7b0550062d0a685999b80bc6f190
     secrets: inherit
